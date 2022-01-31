@@ -4,6 +4,7 @@
 /* common styles or utilities  */
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
 
 .toggle-bar,
@@ -199,7 +200,7 @@ body {
 .best-selling-products {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-column-gap: 5px;
+  grid-gap: 5px;
   margin-bottom: 50px;
 }
 .best-selling-product {
@@ -223,7 +224,34 @@ body {
 }
 
 /* footer styles  */
-.footer-container {
+footer {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0a0826;
+  color: #ffffff;
+  padding: 50px 0px;
+}
+
+.footer-info,
+.links {
+  text-align: center;
+}
+
+.footer-info h2 {
+  margin: 0px;
+  font-size: 24px;
+}
+
+.footer-info p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.links a {
+  margin-top: 17px;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 32px;
+  margin-left: 16px;
 }
