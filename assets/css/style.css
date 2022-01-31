@@ -117,6 +117,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
+  margin-bottom: 50px;
 }
 
 .product {
@@ -170,14 +171,18 @@ body {
   font-size: 14px;
 }
 
+/* button contianer  */
 .see-more-btn {
-  position: relative;
-  top: 20px;
-  left: 88%;
+  width: 72%;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.see-more-btn a {
   color: #e02c6dde;
   font-size: 16px;
   text-decoration: none;
-  margin-bottom: 100px;
 }
 
 /* bonus section  */
