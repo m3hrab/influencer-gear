@@ -187,9 +187,21 @@ body {
 
 /* bonus section  */
 .best-selling-products-container {
-  margin: 0px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.best-selling-products-container .product-title {
+  margin-top: 0px;
+}
+
+.best-selling-products {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 5px;
+  margin-bottom: 50px;
+}
 .best-selling-product {
   width: 120px;
   display: flex;
